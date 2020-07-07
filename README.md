@@ -11,7 +11,7 @@ A list of basic examples using [systemic](https://www.npmjs.com/package/systemic
 
 Running the system: `npm run a`
 
-Note: in the related `inde.js` we create then system and the use it after starting it.
+Note: in the related `index.js` we create then system and the use it after starting it.
 
 
 ### Example-B
@@ -26,7 +26,7 @@ Note: in the related `inde.js` we create then system and the use it after starti
 
 Running the system: `npm run b`
 
-Note: in the related `inde.js` we start the subsystems then create the system and then use it after starting it. Each one of the subsystem comes with an `index.js` files that acts as a manifest for that given subsystem, it tells us which component is the subsystem relying on.
+Note: in the related `index.js` we start the subsystems then create the system and then use it after starting it. Each one of the subsystem comes with an `index.js` files that acts as a manifest for that given subsystem, it tells us which component is the subsystem relying on.
 
 
 ### Example-C
@@ -41,7 +41,7 @@ Note: in the related `inde.js` we start the subsystems then create the system an
 
 Running the system: `npm run c`
 
-Note: in the related `inde.js` we don't need to start the subsystems since we bootstrap them along with the system itself, all we have to do is starting the system after having it bootstrapped. 
+Note: in the related `index.js` we don't need to start the subsystems since we bootstrap them along with the system itself, all we have to do is starting the system after having it bootstrapped. 
 
 
 ### Example-D
